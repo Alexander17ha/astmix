@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Rubik:700&display=swap');
+
+html {
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: inset 20px -20px 60px #c7c09c,
+        inset -20px 20px 60px #ffffd2;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-1,
+a {
+    font-family: 'Rubik', serif;
+    letter-spacing: .1rem;
+
+}
+
+a {
+    color: #003049;
+}
+
+
+.circ-pp {
+    border-radius: 50%;
+    border: 5px solid #003049;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.pro-left {
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 20px 20px 60px #c7c09c,
+        -20px -20px 60px #ffffd2;
+}
+.bg-blue {
+    background-color: #003049;
+    color: #fff;
+}
+.bg-red {
+    background-color: #D62828;
+}
+.bg-yellow {
+    background-color: #F77F00;
+}
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.5
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.9
+    }
+
+    50% {
+        opacity: 1.0
+    }
+
+    100% {
+        opacity: 0.8
+    }
+}
+.shadow {
+    -webkit-box-shadow: 5px 5px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    5px 5px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         5px 5px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
